@@ -41,39 +41,98 @@ div div{
 img{
     width:100%;
 }
+.front{
+    width: 95%;
+    position: absolute;
+    bottom:0;
+    margin:0;
+    border: none;
+
+}
+.back{
+    visibility: hidden;
+    
+}
 .boton{
+    width: 100%;
     height:2vw;
     position: relative;
-    bottom:10;
+    top:100;
     cursor: pointer;
 }
 .boton p{
+
    text-align: center; 
    font-family: 'Courgette', cursive;
    padding:0.5vw
 }
 .small{
+    position: relative;
+    height:15vw;
     background: rgb(228,41,41);
-    background: radial-gradient(circle, rgba(228,41,41,1) 37%, rgba(102,19,19,1) 100%);
+    background: radial-gradient(circle, rgba(228,41,41,1) 37%, rgba(102,19,19,1) 100%);    
 }
 .small img{
    margin-top:1vw;
 }
-.rayquaza{
+.rayquazaCont{
+    position: relative;
     grid-column-end: span 2;
     grid-row-end: span 2;
     background: rgb(60,41,167);
     background: radial-gradient(circle, rgba(60,41,167,1) 37%, rgba(31,34,187,1) 100%);
     
 }
-.shaymin{
+.shayminCont{
+    position:relative;
     grid-column-end: span 2;
 }
-.darkrai{
+.darkraiCont{
+    position:relative;
     grid-column-end: span 2;
 }
-
-
-
-
+.articunoCont{
+    background-image: url(./images/articuno.png);
+    background-size: cover;
+}
+.infernapeCont{
+    background-image: url(./images/infernape.png);
+    background-size: cover;
+}
+.rayquazaCont{
+    background-image: url(./images/rayquaza.png);
+    background-size: cover;
+}
+.treeckoCont{
+    background-image: url(./images/treecko.png);
+    background-size: cover;
+}
+.lucarioCont{
+    background-image: url(./images/lucario.png);
+    background-size: cover;
+}
+.shayminCont{
+    background-image: url(./images/shaymin.png);
+    background-size: cover;
+}
+.eveeCont{
+    background-image: url(./images/eevee.png);
+    background-size: cover;
+}
+.luxrayCont{
+    background-image: url(./images/luxray.png);
+    background-size: cover;
+}
+.totodileCont{
+    background-image: url(./images/totodile.png);
+    background-size: cover;
+}
+.mimikyuCont{
+    background-image: url(./images/mimikyu.png);
+    background-size: cover;
+}
+.darkraiCont{
+    background-image: url(./images/darkrai.png);
+    background-size: cover;
+}
 
