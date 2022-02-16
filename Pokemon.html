@@ -11,7 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 </head>
 <body>
     
@@ -21,9 +23,10 @@
     
         <div class="container">
 
-            <div class="small articunoCont">
+            <div class="tarjeta small articunoCont">
                 <div class="front articuno">
                     <div class="boton">
+                        <div class="color"></div>
                         <p>Articuno</p>
                     </div>
                 </div>
@@ -32,9 +35,10 @@
                </div>
             </div>
 
-            <div class="small infernapeCont">
+            <div class="tarjeta small infernapeCont">
                 <div class="front infernape">
                     <div class="boton">
+                        <div class="color"></div>
                         <p>Infernape</p>
                     </div>
                 </div>
@@ -44,9 +48,10 @@
             
             </div>
             
-            <div class="rayquazaCont">
+            <div class="tarjeta rayquazaCont">
                 <div class="front rayquaza">
                     <div class="boton">
+                        <div class="color"></div>
                         <p>Rayquaza</p>
                     </div>
                 </div>
@@ -56,9 +61,10 @@
                 
             </div>
 
-            <div class="small treeckoCont">
+            <div class="tarjeta small treeckoCont">
                 <div class="front treecko">
                     <div class="boton">
+                        <div class="color"></div>
                         <p>Treecko</p>
                     </div>
                 </div>
@@ -68,9 +74,10 @@
                 
             </div>
 
-            <div class="small lucarioCont">
+            <div class="tarjeta small lucarioCont">
                 <div class="front lucario">
                     <div class="boton">
+                        <div class="color"></div>
                         <p>Lucario</p>
                     </div>
                 </div>  
@@ -80,9 +87,10 @@
                 
             </div>
 
-            <div class="shayminCont">
+            <div class="tarjeta shayminCont">
                 <div class="front shaymin">
                     <div class="boton">
+                        <div class="color"></div>
                         <p>Shaymin</p>
                     </div>
                 </div>
@@ -92,9 +100,10 @@
             
             </div>
 
-            <div class="small eveeCont">
+            <div class="tarjeta small eveeCont">
                 <div class="front evee">
                     <div class="boton">
+                        <div class="color"></div>
                         <p>Eevee</p>
                     </div>
                 </div>
@@ -104,9 +113,10 @@
                 
             </div>
 
-            <div class="small luxrayCont">
+            <div class="tarjeta small luxrayCont">
                 <div class="front luxray">
                     <div class="boton">
+                        <div class="color"></div>
                         <p>Luxray</p>
                     </div> 
                 </div>
@@ -116,9 +126,10 @@
                 
             </div>
 
-            <div class="small totodileCont">
+            <div class="tarjeta small totodileCont">
                 <div class="front totodile">
                     <div class="boton">
+                        <div class="color"></div>
                         <p>Totodile</p>
                     </div>
                 </div>
@@ -128,9 +139,10 @@
                                 
             </div>
 
-            <div class="small mimikyuCont">
+            <div class="tarjeta small mimikyuCont">
                 <div class="front mimikyu">
                     <div class="boton">
+                        <div class="color"></div>
                         <p>Mimikyu</p>
                     </div>
                 </div>
@@ -140,9 +152,10 @@
                  
             </div>
 
-            <div class="darkraiCont">
+            <div class="tarjeta darkraiCont">
                 <div class="front darkrai">
                     <div class="boton">
+                        <div class="color"></div>
                         <p>Darkrai</p>
                     </div>
                 </div>
@@ -151,8 +164,14 @@
                 </div>
                                  
             </div>
-
         </div>
     </main>
 </body>
+<script>
+    $(document).ready(function(){
+        $('.container').on('click', function(){
+            $($this).find('.tarjeta').toggleClass('.back');
+        });
+    });
+</script>
 </html>
