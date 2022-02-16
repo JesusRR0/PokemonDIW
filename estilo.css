@@ -4,18 +4,18 @@
     box-sizing: border-box;
 }
 :root{
-    --red:rgb(228,41,41) radial-gradient(circle, rgba(228,41,41,1) 37%, rgba(102,19,19,1) 100%);
-    --blue: rgb(60,41,167) radial-gradient(circle, rgba(60,41,167,1) 37%, rgba(31,34,187,1) 100%);
+    --darkBlueGradient:rgb(11,19,43)radial-gradient(circle, rgba(11,19,43,1) 0%, rgba(91,192,190,1) 100%);
 }
+
 body{
-    background-color: #310000;
-    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='100%25' gradientTransform='rotate(264,462,436)'%3E%3Cstop offset='0' stop-color='%23310000'/%3E%3Cstop offset='1' stop-color='%23600101'/%3E%3C/linearGradient%3E%3Cpattern patternUnits='userSpaceOnUse' id='b' width='434' height='361.7' x='0' y='0' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.08'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='100%25' height='100%25'/%3E%3Crect x='0' y='0' fill='url(%23b)' width='100%25' height='100%25'/%3E%3C/svg%3E");
+    background-color: #3a506b;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='40' viewBox='0 0 50 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%234b8895' fill-opacity='0.4'%3E%3Cpath d='M40 10L36.67 0h-2.11l3.33 10H20l-2.28 6.84L12.11 0H10l6.67 20H10l-2.28 6.84L2.11 10 5.44 0h-2.1L0 10l6.67 20-3.34 10h2.11l2.28-6.84L10 40h20l2.28-6.84L34.56 40h2.1l-3.33-10H40l2.28-6.84L47.89 40H50l-6.67-20L50 0h-2.1l-5.62 16.84L40 10zm1.23 10l-2.28-6.84L34 28h4.56l2.67-8zm-10.67 8l-2-6h-9.12l2 6h9.12zm-12.84-4.84L12.77 38h15.79l2.67-8H20l-2.28-6.84zM18.77 20H30l2.28 6.84L37.23 12H21.44l-2.67 8zm-7.33 2H16l-4.95 14.84L8.77 30l2.67-8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
     background-attachment: fixed;
     background-size: cover;
 }
 h1{
     font-family: 'Courgette', cursive;
-    color:whitesmoke;
+    color:#6FFFE9;
     text-align: center;
     font-size:1.3vw;
 }
@@ -23,6 +23,7 @@ h1:nth-of-type(2){
     margin-bottom: 2vw;
 }
 main{
+    color:#2B220B;
     width:70%;
     margin:auto;
     background-color: rgba(183,127,127,0.3);
@@ -56,15 +57,25 @@ img{
 .back{
     visibility: hidden;
 }
+.giro{
+    transform: rotateY(180deg);
+}
+.interior{
+    transform-style:preserve-3d;
+
+}
+.back, .front{
+    backface-visibility: hidden;
+}
 .boton{
-    border:1px solid white;
+    border:1px solid whitesmoke;
     margin:0.5vw;
     width: 100%;
     height:4vw;
     position: relative;
     top:100;
     cursor: pointer;
-    background-color: yellow;
+    background-color: #336A75;
     opacity: 0;
     transition:all;
     transition-duration:1s;
@@ -72,13 +83,15 @@ img{
 .boton p{
     width:60%;
     text-align: center; 
+    margin:auto;
+    padding:0.5vw;
+    font-family: 'Courgette', cursive;
+    font-size:2vw;
+    opacity: 1;
+    -webkit-text-stroke: 0.5px whitesmoke;
     position:relative;
     bottom:3.7vw;
-    margin:auto;
-    font-family: 'Courgette', cursive;
-    opacity: 1;
-    padding:0.5vw;
-    font-size:2vw;
+    
     transform-origin: left;
     transform: rotateY(90deg);
 }
@@ -91,27 +104,27 @@ img{
     border-radius:10px;
     width: 100%;
     height: 100%;
-    background-color: pink;
+    background-color: #9DFFF0;
     margin:auto;
     transform-origin: left;
     transform:rotateY(90deg);
 }
-.tarjeta:hover .boton{
+.front:hover .boton{
     opacity: 1; 
 }
-.tarjeta:hover .boton p{
+.front:hover .boton p{
     opacity: 1;
     animation:letra 2s;
     animation-delay:0.7s;
     animation-fill-mode: forwards;
 }
- .tarjeta:hover .color{
+.front:hover .color{
     animation: colorFondo 2s;
     animation-delay:0.5s;
     animation-fill-mode: forwards;
 }
-.tarjeta:hover .boton{
-    animation:border 2s;
+.front:hover .boton{
+    animation:border 2s ease;
     animation-delay:2s;
     animation-iteration-count: infinite;
 }
@@ -139,32 +152,32 @@ img{
     position:relative;
     grid-column-end: span 2;
 }
-.darkraiCont{
+.tarjetaDarkrai{
     position:relative;
     grid-column-end: span 2;
 }
-.articunoCont{
-    background: url(./images/articuno.png), var(--red);
+.tarjetaArticuno{
+    background: url(./images/articuno.png), var(--darkBlueGradient);
     background-position: center;
     background-size: cover;
 }
-.infernapeCont{
-    background: url(./images/infernape.png),var(--red);
+.tarjetaInfernape{
+    background: url(./images/infernape.png),var(--darkBlueGradient);
     background-position: center;
     background-size: cover;
 }
 .rayquazaCont{
-    background: url(./images/rayquaza.png), var(--blue);
+    background: url(./images/rayquaza.png), var(--darkBlueGradient);
     background-position: center;
     background-size: cover;
 }
 .treeckoCont{
-    background: url(./images/treecko.png), var(--red);
+    background: url(./images/treecko.png), var(--darkBlueGradient);
     background-position: center;
     background-size: cover;
 }
 .lucarioCont{
-    background: url(./images/lucario.png), var(--red);
+    background: url(./images/lucario.png), var(--darkBlueGradient);
     background-position: center;
     background-size: cover;
 }
@@ -174,22 +187,22 @@ img{
     background-size: cover;
 }
 .eveeCont{
-    background: url(./images/eevee.png), var(--red);
+    background: url(./images/eevee.png), var(--darkBlueGradient);
     background-position: center;
     background-size: cover;
 }
 .luxrayCont{
-    background: url(./images/luxray.png), var(--red);
+    background: url(./images/luxray.png), var(--darkBlueGradient);
     background-position: center;
     background-size: cover;
 }
 .totodileCont{
-    background: url(./images/totodile.png), var(--red);
+    background: url(./images/totodile.png), var(--darkBlueGradient);
     background-position: center;
     background-size: cover;
 }
 .mimikyuCont{
-    background: url(./images/mimikyu.png), var(--red);
+    background: url(./images/mimikyu.png), var(--darkBlueGradient);
     background-position: center;
     background-size: cover;
 }
@@ -199,3 +212,8 @@ img{
     background-size: cover;
 }
 
+.back{
+    background-image: url(./images/pokeball.png);
+    background-position: center;
+    background-size: cover;
+}
