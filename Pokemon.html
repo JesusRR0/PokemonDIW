@@ -16,7 +16,13 @@
 
 </head>
 <body>
-    
+    <script>
+        $(document).ready(function(){
+            $('.tarjeta').on('click', function(){
+                $(this).find('.interior').toggleClass('giro');
+            });
+        });
+    </script>
     <main>
         <h1>Gotta catch'em all!</h1>
         <h1>Click on the pictures for more info</h1>
@@ -24,135 +30,155 @@
         <div class="container">
 
             <div class="tarjeta small tarjetaArticuno">
-                <div class="front articuno articunoCont">
-                    <div class="boton">
-                        <div class="color"></div>
-                        <p>Articuno</p>
+                <div class="interior">
+                    <div class="front articuno articunoCont">
+                        <div class="boton">
+                            <div class="color"></div>
+                            <p>Articuno</p>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <p>Articuno is a dual-type Ice/Flying Legendary Pokémon introduced in Generation I.</p>
                     </div>
                 </div>
-               <div class="back">
-                    <p>Articuno is a dual-type Ice/Flying Legendary Pokémon introduced in Generation I.</p>
-               </div>
             </div>
 
             <div class="tarjeta small tarjetaInfernape">
-                <div class="front infernape infernapeCont">
-                    <div class="boton">
-                        <div class="color"></div>
-                        <p>Infernape</p>
+                <div class="interior">
+                    <div class="front infernape infernapeCont">
+                        <div class="boton">
+                            <div class="color"></div>
+                            <p>Infernape</p>
+                        </div>
                     </div>
-                </div>
-                <div class="back">
-                    <p>Infernape is a dual-type Fire/Fighting Pokémon introduced in Generation IV.</p>
+                    <div class="back">
+                        <p>Infernape is a dual-type Fire/Fighting Pokémon introduced in Generation IV.</p>
+                    </div>
                 </div>
             
             </div>
             
-            <div class="tarjeta tarjetaRayquaza">
-                <div class="front rayquaza rayquazaCont">
-                    <div class="boton">
-                        <div class="color"></div>
-                        <p>Rayquaza</p>
+            <div class="tarjeta tarjetaRayquaza big">
+                <div class="interior">
+                    <div class="front rayquaza rayquazaCont">
+                        <div class="boton">
+                            <div class="color"></div>
+                            <p>Rayquaza</p>
+                        </div>
                     </div>
-                </div>
-                <div class="back">
-                    <p>Rayquaza is a dual-type Dragon/Flying Legendary Pokémon introduced in Generation III. While it is not known to evolve into or from any other Pokémon, Rayquaza can Mega Evolve into Mega Rayquaza if it knows Dragon Ascent, but only if it is not holding a Z-Crystal. Rayquaza is the game mascot of Pokémon Emerald.</p>
+                    <div class="back">
+                        <p>Rayquaza is a dual-type Dragon/Flying Legendary Pokémon introduced in Generation III. While it is not known to evolve into or from any other Pokémon, Rayquaza can Mega Evolve into Mega Rayquaza if it knows Dragon Ascent, but only if it is not holding a Z-Crystal. Rayquaza is the game mascot of Pokémon Emerald.</p>
+                    </div>
                 </div>
                 
             </div>
 
             <div class="tarjeta small tarjetaTreecko">
-                <div class="front treecko treeckoCont">
-                    <div class="boton">
-                        <div class="color"></div>
-                        <p>Treecko</p>
+                <div class="interior">
+                    <div class="front treecko treeckoCont">
+                        <div class="boton">
+                            <div class="color"></div>
+                            <p>Treecko</p>
+                        </div>
                     </div>
-                </div>
-                <div class="back">
-                    <p>Treecko is a Grass-type Pokémon introduced in Generation III.</p> 
+                    <div class="back">
+                        <p>Treecko is a Grass-type Pokémon introduced in Generation III.</p> 
+                    </div>
                 </div>
                 
             </div>
 
             <div class="tarjeta small tarjetaLucario">
-                <div class="front lucarioCont lucario">
-                    <div class="boton">
-                        <div class="color"></div>
-                        <p>Lucario</p>
+                <div class="interior">
+                    <div class="front lucarioCont lucario">
+                        <div class="boton">
+                            <div class="color"></div>
+                            <p>Lucario</p>
+                        </div>
+                    </div>  
+                    <div class="back">
+                        <p>Lucario is a dual-type Fighting/Steel Pokémon introduced in Generation IV.</p>
                     </div>
-                </div>  
-                <div class="back">
-                    <p>Lucario is a dual-type Fighting/Steel Pokémon introduced in Generation IV.</p>
                 </div>
                 
             </div>
 
-            <div class="tarjeta tarjetaShaymin">
-                <div class="front shayminCont shaymin">
-                    <div class="boton">
-                        <div class="color"></div>
-                        <p>Shaymin</p>
+            <div class="tarjeta tarjetaShaymin big">
+                <div class="interior">
+                    <div class="front shayminCont shaymin">
+                        <div class="boton">
+                            <div class="color"></div>
+                            <p>Shaymin</p>
+                        </div>
                     </div>
-                </div>
-                <div class="back">
-                    <p>Shaymin is a Grass-type Mythical Pokémon introduced in Generation IV. While it is not known to evolve into or from another Pokémon, Shaymin has a second Forme activated by using a Gracidea flower in the daytime.</p>
+                    <div class="back">
+                        <p>Shaymin is a Grass-type Mythical Pokémon introduced in Generation IV. While it is not known to evolve into or from another Pokémon, Shaymin has a second Forme activated by using a Gracidea flower in the daytime.</p>
+                    </div>
                 </div>
             
             </div>
 
             <div class="tarjeta small tarjetaEvee">
-                <div class="front eveeCont evee">
-                    <div class="boton">
-                        <div class="color"></div>
-                        <p>Eevee</p>
+                <div class="interior">
+                    <div class="front eveeCont evee">
+                        <div class="boton">
+                            <div class="color"></div>
+                            <p>Eevee</p>
+                        </div>
                     </div>
-                </div>
-                <div class="back">
-                    <p>Eevee is a Normal-type Pokémon introduced in Generation I.</p>
+                    <div class="back">
+                        <p>Eevee is a Normal-type Pokémon introduced in Generation I.</p>
+                    </div>
                 </div>
                 
             </div>
 
             <div class="tarjeta small tarjetaLuxray">
-                <div class="front luxrayCont luxray">
-                    <div class="boton">
-                        <div class="color"></div>
-                        <p>Luxray</p>
-                    </div> 
-                </div>
-                <div class="back">
-                    <p>Luxray is an Electric-type Pokémon introduced in Generation IV.</p> 
+                <div class="interior">
+                    <div class="front luxrayCont luxray">
+                        <div class="boton">
+                            <div class="color"></div>
+                            <p>Luxray</p>
+                        </div> 
+                    </div>
+                    <div class="back">
+                        <p>Luxray is an Electric-type Pokémon introduced in Generation IV.</p> 
+                    </div>
                 </div>
                 
             </div>
 
             <div class="tarjeta small tarjetaTotodile">
-                <div class="front totodileCont totodile">
-                    <div class="boton">
-                        <div class="color"></div>
-                        <p>Totodile</p>
+                <div class="interior">
+                    <div class="front totodileCont totodile">
+                        <div class="boton">
+                            <div class="color"></div>
+                            <p>Totodile</p>
+                        </div>
                     </div>
-                </div>
-                <div class="back">
-                    <p>Totodile is a Water-type Pokémon introduced in Generation II.</p> 
+                    <div class="back">
+                        <p>Totodile is a Water-type Pokémon introduced in Generation II.</p> 
+                    </div>
                 </div>
                                 
             </div>
 
             <div class="tarjeta small tarjetaMimikyu">
-                <div class="front mimikyuCont mimikyu">
-                    <div class="boton">
-                        <div class="color"></div>
-                        <p>Mimikyu</p>
+                <div class="interior">
+                    <div class="front mimikyuCont mimikyu">
+                        <div class="boton">
+                            <div class="color"></div>
+                            <p>Mimikyu</p>
+                        </div>
                     </div>
-                </div>
-                <div class="back">
-                    <p>Mimikyu is a dual-type Ghost/Fairy Pokémon introduced in Generation VII.</p> 
+                    <div class="back">
+                        <p>Mimikyu is a dual-type Ghost/Fairy Pokémon introduced in Generation VII.</p> 
+                    </div>
                 </div>
                  
             </div>
 
-            <div class="tarjeta tarjetaDarkrai">
+            <div class="tarjeta tarjetaDarkrai big">
                 <div class="interior">
                     <div class="front darkraiCont darkrai">
                         <div class="boton">
@@ -169,11 +195,5 @@
         </div>
     </main>
 </body>
-<script>
-    $(document).ready(function(){
-        $('.tarjeta').on('click', function(){
-            $($this).find('.interior').toggleClass('giro');
-        });
-    });
-</script>
+
 </html>
