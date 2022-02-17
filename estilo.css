@@ -96,11 +96,10 @@ p{
     padding:0.5vw;
     font-family: 'Courgette', cursive;
     font-size:2vw;
-    -webkit-text-stroke: 0.5px whitesmoke;
+    -webkit-text-stroke: 1px lightseagreen;
     position:relative;
     top:0%;
-    transition:all 1s linear 0.5s;
-    opacity:0;
+    z-index: -1;
     
 }
 .small{
@@ -114,16 +113,11 @@ p{
     height: 100%;
     background-color:#9DFFF0;
     margin:auto;
-    transform-origin: left;
     position: absolute;
-    left:0;
+    right:0;
 }
 .front:hover .boton{
     opacity: 1; 
-}
-.front:hover .boton p{
-    opacity: 1;
-    transition:all 1s linear 0.3s;
 }
 
 .front:hover .color{
@@ -136,8 +130,8 @@ p{
     animation-iteration-count: infinite;
 }
 @keyframes colorFondo{
-    0%{width:0;opacity:1;}
-    100%{width: 100%;}
+    100%{width:0;opacity:1;}
+    0%{width: 100%;}
 }
 @keyframes border{
     0%{box-shadow:none;}
@@ -225,3 +219,21 @@ p{
     background-size: cover;
     transform: rotateY(180deg);
 }
+.tarjetaShaymin .back{
+    background-image: url(./images/pokeball2.jpg);
+    background-position: center;
+    background-size: 100%;
+}
+.tarjetaDarkrai .back{
+    background-image: url(./images/pokeball2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-size: 100%;
+}
+.tarjetaShaymin .back p{
+    margin-top:15%;
+}
+.tarjetaDarkrai .back p{
+    margin-top:20%;
+}
+
